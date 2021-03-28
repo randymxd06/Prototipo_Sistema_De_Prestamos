@@ -40,6 +40,12 @@
     .randylogo{
         width: 70px; 
     }
+
+    .imagen1{
+        background: url(static/images/prestamo_imagen4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     
 </style>
 

@@ -1,5 +1,5 @@
 <!-- Menu Superior -->
-<div class="container-fluid gradient">
+<div class="gradient">
 
     <!-- Menu -->
     <div class="row section">
