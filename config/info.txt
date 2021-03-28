@@ -1,0 +1,2 @@
+La carpeta config tendra el archivo que manejara la conexion entre el
+proyecto y la base de datos.

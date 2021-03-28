@@ -1,0 +1,1 @@
+La carpeta modelos es para el controlar el CRUD del sistema de prestamos.

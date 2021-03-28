@@ -1,0 +1,1 @@
+La carpeta funciones es para almacenar las funciones del proyecto.

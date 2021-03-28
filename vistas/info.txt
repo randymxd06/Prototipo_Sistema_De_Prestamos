@@ -1,0 +1,1 @@
+En la carpeta vistas iran los archivos php que tendran el codigo HTML

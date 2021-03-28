@@ -1,0 +1,1 @@
+La carpeta errores es para almacenar las paginas de errores.

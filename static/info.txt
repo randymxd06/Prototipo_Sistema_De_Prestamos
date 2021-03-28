@@ -1,0 +1,1 @@
+La carpeta static iran los css y las imagenes del proyecto.

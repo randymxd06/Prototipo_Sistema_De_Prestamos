@@ -1,0 +1,2 @@
+La carpeta sql tendra los queries que se usaran en el proyecto y el query
+de la base de datos que se va a utilizar.
