@@ -7,5 +7,41 @@
 <!--Script de Materialize-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+<!-- Mi script -->
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+        //Parallax//
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems);
+
+        //Sidenav//
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+
+        //Dropdown Trigger//
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems);
+
+    });
+    
+</script>
+
+<!-- Mis estilos -->
+<style>
+
+    .gradient{
+        background: #1c92d2;
+        background: -webkit-linear-gradient(to right, #1c92d2, #f2fcfe);
+        background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    }
+
+    .randylogo{
+        width: 70px; 
+    }
+    
+</style>
+
 </body>
 </html>

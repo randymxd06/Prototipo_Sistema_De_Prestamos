@@ -26,11 +26,7 @@
                     <label for="password">Contraseña <i class="fa fa-key" aria-hidden="true"></i></label>
                 </div>
 
-                <!-- <button type="submit" name="btnIngresar" class="form-control btn-large blue-grey darken-1 waves-effect waves-light">Ingresar <i class="fa fa-sign-in" aria-hidden="true"></i></button> -->
-                
-                <a href="principal.php" class="form-control btn-large blue-grey darken-1 waves-effect waves-light" style="color: white;">
-                    Ingresar <i class="fa fa-sign-in" aria-hidden="true"></i>
-                </a>
+                <button type="submit" name="btnIngresar" class="form-control btn-large blue-grey darken-1 waves-effect waves-light">Ingresar <i class="fa fa-sign-in" aria-hidden="true"></i></button>
 
             </form>
 

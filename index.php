@@ -1,41 +1,37 @@
 <?php
 
-/*--------------------------
-    Requiero las funciones
-----------------------------*/
-// require_once "funciones/";
+//Incluyo las funciones//
+require_once "funciones/funciones.php";
 
-
-/*-----------------------
-    Título de la página
--------------------------*/
+//Título de la página//
 $nombrePagina = "Login";
 
+//Incluyo el modelo del login//
+require_once "modelos/modelo_login.php";
 
-/*----------------------
-    Requiero el modelo
-------------------------*/
-// require_once "modelos/";
-
-
-/*-------------------------
-    Declaro las variables
----------------------------*/
+//Declaro las variables//
 $btnIngresar = $_POST['btnIngresar'] ?? "";
 
-// try{
+//Intentamos hacer//
+try{
 
-//     if(isset($_POST['btnIngresar'])){
-//         include_once "vistas/vista_principal.php";
-//     }
+    /*Nos aseguramos de que el usuario haya
+    hecho click en el boton ingresar*/
+    if(isset($_POST['btnIngresar'])){
 
-// }catch(Exception $e){
-//     $error = $e->getMessage();
-// }
+        //Redirecciono a la página principal//
+        redireccionar("principal.php");
 
+    }else{//Caso contrario no le ha dado click al boton ingresar//
 
-/*------------------------------
-    Incluyo la vista_principal
---------------------------------*/
-//Al final de cada controlador se incluye la vista//
-include_once "vistas/vista_login.php";
+        //Muestro el login//
+        include_once "vistas/vista_login.php";
+
+    }
+
+}catch(Exception $e){//Si no se pudo hacer entonces//
+
+    //Mandamos un error//
+    $error = $e->getMessage();
+
+}
